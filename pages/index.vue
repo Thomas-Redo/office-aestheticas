@@ -18,10 +18,6 @@
       <WebSectionsImagine />
     </section>
 
-    <!--prettier-ignore-->
-    <!-- <section class="testimonials-wrapper"> -->
-    <!-- <WebSectionsTestimonials logoPath="OAName.svg"/> -->
-    <!-- </section> -->
   </div>
 </template>
 
@@ -49,7 +45,6 @@ emit("hide-loading");
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* background: #4a4a4a; */
 }
 
 .intro-section,
@@ -70,12 +65,7 @@ emit("hide-loading");
 }
 
 .set-apart-section {
-  /* background: url("/SetApartBG.svg") no-repeat; */
   min-height: 40rem;
-}
-
-.testimonials-wrapper {
-  height: 15rem;
 }
 
 @media (max-width: 768px) {
