@@ -9,7 +9,7 @@
 
     <h2>1. General Conditions</h2>
 
-    <p>1.1. By accessing or using the Site, you agree to be bound by these Terms and our <a href="#">Privacy Policy</a>. If you do not agree to these Terms or our Privacy Policy, you may not use the Site.</p>
+    <p>1.1. By accessing or using the Site, you agree to be bound by these Terms and our <NuxtLink to="/privacy">Privacy Policy</NuxtLink>. If you do not agree to these Terms or our Privacy Policy, you may not use the Site.</p>
 
     <p>1.2. You agree not to reproduce, duplicate, copy, sell, resell, or exploit any portion of the Site, use of the Site, or access to the Site without our express written permission.</p>
 
@@ -33,7 +33,7 @@
 
     <p>4.1. We aim to ship orders within the timeframe specified on the Site. However, we do not guarantee delivery dates and are not responsible for any delays in shipping.</p>
 
-    <p>4.2. For information about shipping rates, delivery times, and return policies, please refer to our <a href="#">Shipping & Returns Policy</a>.</p>
+    <p>4.2. For information about shipping rates, delivery times, and return policies, please refer to our <NuxtLink to="/refund">Shipping & Returns Policy</NuxtLink>.</p>
 
     <h2>5. Intellectual Property</h2>
 
@@ -65,7 +65,6 @@
 </template>
 
 <script setup>
-// SEO ADJUST
 useSeoMeta({
   title: "Terms of Service | Office Aestheticas",
   ogTitle: "Terms of Service | Office Aestheticas",

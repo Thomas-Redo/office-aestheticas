@@ -37,15 +37,28 @@ const { $klaviyo } = useNuxtApp();
 const items = ref([
   {
     question: "What is the return policy?",
-    answer: "Please contact us for information about our return policy.",
+    answer:
+      "We accept returns on defective or damaged products reported within 3 days of delivery. Please email support@officeaestheticas.com with photos of the issue and we'll get you sorted out.",
   },
   {
     question: "How long does shipping take?",
-    answer: "Shipping typically takes 3-5 business days.",
+    answer:
+      "Most orders ship within 1-2 business days and arrive within 3-5 business days via standard shipping. Delivery times may vary for larger furniture items.",
   },
   {
     question: "What payment methods do you accept?",
-    answer: "We accept all major credit cards and PayPal.",
+    answer:
+      "We accept all major credit cards, PayPal, and Amazon Pay. All transactions are processed securely.",
+  },
+  {
+    question: "Do you offer assembly for furniture items?",
+    answer:
+      "All of our furniture ships with detailed assembly instructions. Most pieces can be assembled in under 30 minutes with basic tools included in the box.",
+  },
+  {
+    question: "Can I modify or cancel my order after placing it?",
+    answer:
+      "Orders can be modified or cancelled within 1 hour of placement. After that, reach out to support@officeaestheticas.com and we'll do our best to accommodate changes before the order ships.",
   },
 ]);
 
