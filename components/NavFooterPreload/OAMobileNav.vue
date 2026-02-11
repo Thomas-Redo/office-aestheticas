@@ -65,7 +65,6 @@
               </template>
             </li>
             <li><button @click="trackShopClick">Shop</button></li>
-            <li><button disabled>Search (coming soon)</button></li>
           </ul>
         </template>
       </transition>

@@ -36,22 +36,22 @@ const props = defineProps({
 
 const testimonials = ref([
   {
-    name: "John Doe",
+    name: "Sarah M.",
     rating: 5,
     comment:
-      "I love this clinic! Dr Gurney has healed anything I've come in for! Definitely recommend!",
+      "The desk completely transformed my home office. Build quality is outstanding and it looks even better in person.",
   },
   {
-    name: "Jane Smith",
+    name: "David R.",
     rating: 5,
     comment:
-      "I've been coming here for a few months now and I've seen amazing results.",
+      "Finally found office furniture that doesn't sacrifice aesthetics for comfort. Been using my setup daily for 6 months and it still feels brand new.",
   },
   {
-    name: "Bob Johnson",
+    name: "Emily T.",
     rating: 5,
     comment:
-      "I've tried a lot of different clinics, but this one is by far the best.",
+      "Shipped fast, easy to assemble, and the materials are clearly premium. My workspace feels like a completely different room now.",
   },
 ]);
 
@@ -130,12 +130,10 @@ function changeTestimonial(index) {
 .testimonial-content {
   padding: 2rem;
   background: rgba(0, 0, 0, 0.05);
-  /* border: 2px solid black; */
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
   display: flex;
   width: 100%;
   height: 100%;
-  /* min-height: 20rem; */
   gap: 2rem;
   position: relative;
   border-radius: 0px;
@@ -198,7 +196,6 @@ function changeTestimonial(index) {
   bottom: 2rem;
   left: 0;
   right: 0;
-  /* background: blue; */
 }
 
 .circle {
